@@ -1,0 +1,162 @@
+/*
+Theme Name: AH
+Theme URI: 
+Description: Custom theme for AH (beta).
+Author: Stefan Jonker
+Author URI: http://www.stefanjonker.nl
+Version: 8.2
+Tags: ah, green, activism
+
+License: GPL v3.0 and up
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+body {
+	background-color: #eeeeee !important;
+}
+
+a, .media-heading { color: #366eaa !important; }
+a:hover { color: #ff0047 !important; }
+
+a.list-group-item.active, a.list-group-item {
+	border-color: #eaeaea !important;
+}
+
+a.list-group-item:hover, a.list-group-item.active:hover {
+	background-color: #366eaa !important;
+}
+
+.menu-helper {
+	border-right: 1px solid #ababab;
+}
+
+.footer-top
+, .mobile-button-submenu .icon-bar
+, .container
+, a.list-group-item
+, a.list-group-item.active
+, a.list-group-item.active:focus
+, strong.list-group-item.active { 
+	background-color: #ffffff !important; 
+}
+
+.footer-top { border-top-color: #eeeeee; }
+
+#collapse-main-menu, .navbar-default.navbar-mobile, .footer-bottom {
+	background-color: #000000 !important;
+}
+
+.navbar-mobile > .container-fluid, #collapse-main-menu {
+	border-bottom: 1px solid #ffffff;
+}
+
+#collapse-submenu {
+	border-top: 1px solid #ffffff;
+}
+
+.navbar-default {
+  background-color: #03ce00 !important;
+}
+
+.navbar-main li:hover {
+	background-color: #005b00;
+}
+
+.donate { background-color: #fe8200 !important; }
+
+.donate:hover { background-color: #ab4904 !important; }
+
+.navbar-nav>li {
+	border-right-color: #666666 !important;
+}
+
+.btn
+, .btn:hover
+, #wpadminbar a
+, .navbar-nav a
+, .submenu-text
+, a.list-group-item:hover
+, a.list-group-item.active:hover
+, .carousel-control
+, .carousel-caption a {
+	color: #ffffff !important;
+}
+
+a:focus { outline: 2px solid #366eaa; }
+a.list-group-item.active:focus { color: #366eaa !important; }
+
+/*
+a:focus { outline-color: #ff0047 !important; background-color: #ff0047 !important; color: #ffffff !important; }
+*/
+
+.btn
+, .btn:hover
+, #wpadminbar .screen-reader-shortcut
+, strong.list-group-item.active { 
+	color: #000000 !important; 
+}
+
+.mobile-search-button
+, .search-button
+, .media-link
+, .media-link:hover { 
+	color: #000000 !important; 
+}
+
+.media-time, .media-time:hover { color: #666666 !important; }
+
+.footer-bottom { color: #cecece !important; }
+
+.nav-main-mobile .caret {
+	border-top-color: #ffffff !important;
+	border-bottom-color: #ffffff !important;
+}
+
+#collapse-main-menu a:focus
+, #collapse-main-menu a:hover {
+	background: #03ce00;
+}
+
+.nav-main-mobile > li > a:hover
+, .nav-main-mobile > li > a:focus {
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: -2px;
+}
+
+.mobile-search-button, .search-button {
+	background-color: #ffffff !important;
+}
+
+.mobile-search-button:hover, .search-button:hover {
+	background-color: #cecece !important;
+	color: #000000 !important;
+}
+
+.mobile-button-submenu {
+	background-color: #03ce00 !important;
+	border: 2px solid #ffffff !important;
+}
+
+.mobile-submenu {
+	background-color: #666666;
+}
+
+#collapse-submenu .dropdown-menu>li>a:focus
+, #collapse-submenu .dropdown-menu>li>a:hover
+, #collapse-submenu .open>a
+, #collapse-submenu .open>a:focus
+, #collapse-submenu .open>a:hover
+, #collapse-submenu .mobile-submenu > li > a:focus
+, #collapse-submenu .mobile-submenu > li > a:hover {
+	background-color: #ababab !important;
+}
+
+.mobile-submenu .caret {
+	border-top-color: #ffffff !important;
+	border-bottom-color: #ffffff !important;
+}
+
+.navbar:before, .navbar:after {
+  border-bottom-color: #000000;
+  border-left-color: transparent;
+}

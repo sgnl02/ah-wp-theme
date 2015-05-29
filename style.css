@@ -1,0 +1,444 @@
+/*
+Theme Name: AH
+Theme URI: 
+Description: Custom theme for AH (beta).
+Author: Stefan Jonker
+Author URI: http://www.stefanjonker.nl
+Version: 8.2
+Tags: ah, green, activism
+
+License: GPL v3.0 and up
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+body {
+	padding-bottom: 40px;
+	padding-bottom: 0;
+}
+
+.footer-top { 
+	border-top: 50px solid; 
+	width: 100%; 
+	padding: 20px; 
+}
+
+.list-group-level-three {
+	margin-left: 15px;
+}
+
+.footer-bottom { 
+	width: 100%; 
+	padding: 20px; 
+}
+
+.footer-logo {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.btn
+, btn:hover
+, .navbar-main a
+, .navbar-mobile a
+, .media-link
+, .media-time { 
+	text-decoration: none !important; 
+}
+
+.show-on-mobile { 
+	display: none !important; 
+}
+
+.menu-helper { 
+	margin-top: 20px; 
+	padding-right: 15px;
+}
+
+.btn-donate {
+	margin-bottom: 15px !important;
+}
+
+a.list-group-item.active
+, a.list-group-item
+, strong.list-group-item.active {
+	border: 0 !important;
+}
+
+a.list-group-item.active { margin-left: 5px; }
+
+.list-group-item.active { 
+	font-size: 18px; 
+}
+
+a, a.list-group-item { 
+	text-decoration: underline !important; 
+}
+
+a.list-group-item { 
+	padding-left: 30px; 
+}
+
+a.list-group-item.active { 
+	font-weight: bold; padding-left: 10px; 
+}
+
+a.list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+a.list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.media a:hover { 
+	text-decoration: none; 
+}
+
+.hide-on-desktop, .show-on-tablet { 
+	display: none !important; 
+}
+
+.logo-big { 
+	margin-top: 10px; margin-bottom: 10px; 
+}
+
+/* Tablet-query */
+@media screen and (max-width: 1199px) {
+	.show-on-tablet {
+		display: block !important;
+	}
+
+	#carousel {
+		display: none !important;
+	}
+}
+
+/* Mobile-query */
+@media screen and (max-width: 767px) {
+	/*
+ 	 * Other
+	 *
+	 
+	.navbar-nav>li { border: 0 !important; display: inline-block !important; }
+
+	.nav>li { margin-left: 20px !important; }
+
+	.navbar-nav a { text-decoration: underline !important; }
+	*/
+
+	.logo-small {
+		margin: 0;	
+	}
+
+	.navbar:before, .navbar:after { 
+		border: 0 !important; 
+	}
+
+	#collapse-main-menu .navbar-nav { 
+		margin: 0 !important; 
+	}
+
+	.nav-main-mobile { 
+		margin-left: 5px; 
+	}
+
+	.nav-main-mobile li { 
+		border: 0 !important; 
+	}
+
+	.navbar-mobile {
+		width: 100%;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		margin-bottom: 0 !important;
+  	margin-top: 0 !important;
+		border: 0 !important;
+	}
+	
+ 	.nav-item-main-mobile {
+		float: left;	
+		margin-right: 10px;
+	}
+
+	#collapse-main-menu li {
+  	display: inline-block !important;
+  	width: 50% !important;
+  	float: left;
+		border: 0 !important;
+	}	
+
+	.show-on-mobile { 
+		display: inline-block !important; 
+	}
+
+	.show-on-tablet, .hide-on-mobile { 
+		display: none !important; 
+	}
+
+	.mobile-search-button {
+	  position: absolute;
+	  top: 8px;
+	  right: 15px;
+	}
+
+	.mobile-search-input {
+	  position: absolute;
+		right: 50px !important;
+	  width: 33% !important;
+	}
+
+	.mobile-search-form {
+		border: 0 !important;
+		padding: 0 !important;
+	}
+
+	.show-mobile-banner {
+		display: block;
+	}
+
+	.mobile-banner-inicio {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-inicio.jpg')
+	}
+
+	.mobile-banner-animal-heroes {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-animal-heroes.jpg')
+	}
+
+	.mobile-banner-misiones {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-misiones.jpg')
+	}
+
+	.mobile-banner-campanas {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-campanas.jpg')
+	}
+	
+	.mobile-banner-se-un-heroe {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-se-un-heroe.jpg')
+	}
+
+	.mobile-banner-centro-de-prensa {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-centro-de-prensa.jpg')
+	}
+
+	.mobile-banner-search {
+		padding: 0 !important;
+		height: 200px;
+		background-image: url('img/banner-search.jpg')
+	}
+
+	a.navbar-brand.show-on-mobile { padding-bottom: 0 !important; margin-right: 10px; }
+	
+	.mobile-button-submenu {
+		position: relative;
+		right: 0;
+		padding-bottom: 0 !important;
+		border: 2px solid;
+	}
+
+	.mobile-submenu {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.mobile-submenu li {
+		border: 0 !important;
+	}
+
+	.submenu-text {
+	  top: -4px;
+	  position: relative;
+	  font-size: 15px;
+	  left: 5px;
+	}
+
+	.img-responsive, .content img { 
+		padding: 20px !important;
+	  display: block;
+	  width: 100%;
+		height: auto;
+	  margin-left: auto;
+	  margin-right: auto
+	}
+}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+@media screen and (min-width: 768px) {
+	/* Moves the carousel down without negative margins at bottom */
+	.under-menu { 
+		position: relative; 
+		margin-top: -90px; 
+	}
+	
+	/* Moves the navbar over the carousel */
+	.navbar-default { 
+		margin-top: 25px !important; 
+	}
+	
+	#collapse-main-menu, .navbar-default {
+		z-index: 50;
+	}
+	
+	.navbar-nav>li {
+		border-right: 1px solid;
+	}
+	
+	.navbar { 
+		position: relative; 
+		top: 15px; 
+		border-top: 0px !important; 
+		border-bottom: 0px !important; 
+		margin-left: -11px; 
+		margin-right: -11px; 
+		border-radius: 0px !important; 
+	}
+
+	.navbar:before {
+	  content: '';
+	  position: absolute;
+	  bottom: 100%;
+	  height: 0;
+	  width: 0;
+	  border-bottom: 10px solid black;
+	  border-left: 10px solid transparent;
+	}
+	
+	.navbar:after {
+	  content: '';
+	  position: absolute;
+	  bottom: 100%;
+	  right: 0px;
+	  height: 0;
+	  width: 0;
+	  border-bottom: 10px solid black;
+	  border-right: 10px solid transparent;
+	}
+	
+	.search-input, .search-button {
+		margin-top: 30px;
+	}
+	
+	.search-input {
+		width: 300px !important;
+	}
+	
+	.search-button {
+	  position: absolute !important;
+	  top: 8px !important;
+	  right: 15px !important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container { max-width: 100% !important; }
+}
+
+
+/* Bootstrap overrides */
+
+.media {
+  margin-top: 15px;
+}
+
+.media:first-child {
+  margin-top: 0;
+}
+
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media-body {
+  width: 10000px;
+}
+
+.media-object {
+  display: block;
+}
+
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-middle {
+  vertical-align: middle;
+}
+
+.media-bottom {
+  vertical-align: bottom;
+}
+
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+#carousel
+, .carousel-inner
+, .carousel-inner img {
+	width: 1140px;
+  height: 288px; 
+}
+
+#carousel {
+  position: relative;
+	margin-bottom: -85px !important;
+}
+
+.carousel.slide {
+  position: absolute;
+  top: -90px;	
+}
+
+a.list-group-item { 
+	margin-bottom: 0px; 
+}
+
+.logo, a.list-group-item:focus { 
+	display: block !important; 
+}
