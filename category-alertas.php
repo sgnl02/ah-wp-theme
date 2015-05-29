@@ -10,7 +10,7 @@
  * Last modified: Tue 24-03-2015, 12:57:50 (-0600)
  */
 ?>
-Ĺ
+
 <?php require 'inc/category-banner.php'; ?>
 
 <?php require 'inc/category-submenu.php'; ?>
